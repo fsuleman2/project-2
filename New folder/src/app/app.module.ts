@@ -40,6 +40,7 @@ import { SidebarComponent as UserSidebar } from './pages/user/sidebar/sidebar.co
 import { LoadQuizComponent } from './pages/user/load-quiz/load-quiz.component';
 import { InstructionsComponent } from './pages/user/instructions/instructions.component';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { StartComponent } from './pages/user/start/start.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +64,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     UserSidebar,
     LoadQuizComponent,
     InstructionsComponent,
+    StartComponent,
   ],
   imports: [
     BrowserModule,
